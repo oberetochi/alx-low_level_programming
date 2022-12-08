@@ -1,15 +1,13 @@
 #include <stdio.h>
-#include <unstd.h>
+#include <unistd.h>
 /**
  * main - Entry point
- *
- * description: A program that returns 1
- *
- * retunrs: 1
+ * Description: A program that returns 1
+ * Return: 1
  */
 int main(void)
 	{
-		char ch[] = "and that piece of art is useful" - Dora Korpar, 2015-10-19\n";
+		char ch[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 		write(2, ch, sizeof(ch));
 		return (1);
 	}
