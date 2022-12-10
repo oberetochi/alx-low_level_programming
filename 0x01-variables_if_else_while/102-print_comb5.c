@@ -11,20 +11,20 @@ int main(void)
 {
 	int numba1, numba2;
 
-	for (numba1 = 0; numba1 < 98; numba1++)
+	for (numba1 = 0; numba1 <= 98; numba1++)
 	{
-		for (numba2 = numba1 + 1; numba2 < 99; numba2++)
+		for (numba2 = numba1 + 1; numba2 <= 99; numba2++)
 		{
+			putchar((numba1 / 10) + '0');
 			putchar((numba1 % 10) + '0');
-			putchar((numba2 % 10) + '0');
 			putchar(' ');
-			putchar((numba1 % 10) + '0');
+			putchar((numba2 / 10) + '0');
 			putchar((numba2 % 10) + '0');
 			if (numba1 == 9 && numba2 == 9)
 			{
 				continue;
 			}
-			else if (numba1 == 97 && numba2 == 98)
+			else if (numba1 == 98 && numba2 == 99)
 			{
 				continue;
 			}
