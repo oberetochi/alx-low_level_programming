@@ -7,11 +7,11 @@
  * *Return: 0 if successful
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	char alpha = a;
+	char alpha = 'a';
 
-	while (alpha <= z)
+	while (alpha <= 'z')
 	{
 		_putchar(a);
 		alpha++;
