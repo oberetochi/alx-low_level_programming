@@ -4,11 +4,13 @@
  * main - entry point
  *
  * description: Using custom header to print alphabets777
+ * Return: 0
  */
 
 void print_alphabet(void)
 {
 	char alpha;
+
 	alpha = 'a';
 
 	while (alpha <= 'z')
@@ -16,5 +18,6 @@ void print_alphabet(void)
 		_putchar(alpha);
 		alpha++;
 	}
+	_putchar('\n');
 }
 
