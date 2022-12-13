@@ -3,19 +3,18 @@
 /**
  * main - entry point
  *
- * description: Using custom header to print alphabets
- * *Return: 0 if successful
+ * description: Using custom header to print alphabets777
  */
 
 void print_alphabet(void)
 {
-	char alpha = 'a';
+	char alpha;
+	alpha = 'a';
 
 	while (alpha <= 'z')
 	{
 		_putchar(a);
 		alpha++;
 	}
-	return (0);
 }
 
