@@ -9,7 +9,7 @@
 
 int _abs(int j)
 {
-	if (j < 10)
+	if (j < 0)
 	{
 		j = j * -1;
 	}
