@@ -5,4 +5,4 @@
  * creating my very own defined HEADER
  */
 
-int_putchar(char c)
+char _putchar(char c)
