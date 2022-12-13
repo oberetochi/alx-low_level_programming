@@ -10,25 +10,20 @@
 
 int print_sign(int n)
 {
-	char p, n, z;
-
-	p = "+";
-	ne = "-";
-	z = "0";
 
 	if (n > 0)
 	{
-		_putcahr(p);
+		_putcahr('+');
 		return (1);
 	}
 	else if (n == 0)
 	{
-		_putchar(z);
+		_putchar('0');
 		return (0);
 	}
 	esle if (n < 0)
 	{
-		_putchar(ne);
+		_putchar('-');
 		return (-1);
 	}
 	else
