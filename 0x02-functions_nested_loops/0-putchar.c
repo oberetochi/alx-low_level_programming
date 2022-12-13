@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "_putchar.h"
 #include "main.h"
 /**
  * main - Entry poin
@@ -9,12 +10,11 @@ int main(void)
 {
 	char c = "_putchar";
 
-	do {
+	while (c) {
 		_putchar(c);
+		c++;
 	}
-	while (c)
-		c++
-
 	_putchar('\n');
+
 	return (0);
 }
