@@ -5,7 +5,7 @@
  *
  *@n: Entry point
  *
- * Returns: value of digits _last digits
+ * Returns: value of digits last_digits
  */
 
 int print_last_digit(int n)
@@ -17,6 +17,6 @@ int print_last_digit(int n)
 	{
 		last_digits = last_digits * (-1);
 		_putchar(last_digits + '0');
+		return (last_digits);
 	}
-	return (last_digits);
 }
