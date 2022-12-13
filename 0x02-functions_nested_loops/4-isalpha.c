@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - checks for an alphabet
+ * @c: Entry point
  *
  * description: this checks for an alphabet in a given characters
  *
