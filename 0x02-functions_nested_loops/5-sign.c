@@ -13,7 +13,7 @@ int print_sign(int n)
 	char p, n, z;
 
 	p = "+";
-	n = "-";
+	ne = "-";
 	z = "0";
 
 	if (n > 0)
@@ -28,7 +28,7 @@ int print_sign(int n)
 	}
 	esle if (n < 0)
 	{
-		_putchar(n);
+		_putchar(ne);
 		return (-1);
 	}
 	else
