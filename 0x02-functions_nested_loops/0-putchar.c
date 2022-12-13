@@ -5,11 +5,12 @@
  *
  * Return: 0 if successful
  */
-int main(void)
+int_putchar(void)
 {
 	char c = "_putchar";
 
-	while (c) {
+	while (c)
+	{
 		_putchar(c);
 		c++;
 	}
