@@ -5,8 +5,6 @@
  * starting with 1 and 2, followed by a new line.
  * Return: 0 if successful
  */
-int main(void)
-{
 	int main(void)
 {
 	int num;
@@ -19,7 +17,7 @@ int main(void)
 		sum = ui1 + ui2;
 		printf("%lu, ", sum);
 
-		fib1 = ui2;
+		ui1 = ui2;
 		ui2 = sum;
 	}
 
@@ -39,7 +37,7 @@ int main(void)
 		}
 
 		printf("%lu%lu", alf1, alf2);
-		if (count != 98)
+		if (num != 98)
 			printf(", ");
 
 		ui1_alf1 = ui2_alf1;
