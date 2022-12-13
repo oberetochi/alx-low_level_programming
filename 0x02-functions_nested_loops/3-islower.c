@@ -1,18 +1,16 @@
 #include "main.h"
 /*
- * int _islower - Picks out the lowercase character
+ * int _islower - Picks out the lowercase character of the alphabets
+ * Return: 1 if successful or 0 if unsuccessful
  */
-
 int _islower(int c)
 {
-	int r;
-
-    r = _islower('H');
-    _putchar(r + '0');
-    r = _islower('o');
-    _putchar(r + '0');
-    r = _islower(108);
-    _putchar(r + '0');
-    _putchar('\n');
-    return (_islower);
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
