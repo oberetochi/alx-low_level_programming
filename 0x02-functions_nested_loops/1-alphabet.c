@@ -1,10 +1,7 @@
 #include "main.h"
 
 /**
- * main - entry point
- *
- * print_alphabet: Using custom header to print alphabets777
- * 
+ * print_alphabet: Using custom header to print alphabets
  */
 
 void print_alphabet(void)
