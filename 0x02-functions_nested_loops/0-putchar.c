@@ -10,12 +10,12 @@
  */
 int main(void)
 {
-	char c = "_putchar";
+	char ch = "_putchar";
 
-	while (c)
+	while (ch)
 	{
-		_putchar(c);
-		c++;
+		_putchar(ch);
+		ch++;
 	}
 	_putchar('\n');
 
