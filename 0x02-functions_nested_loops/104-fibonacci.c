@@ -3,24 +3,50 @@
  * main - main block
  * Description: inds and prints the first 98 Fibonacci numbers,
  * starting with 1 and 2, followed by a new line.
- * Return: 0
+ * Return: 0 if successful
  */
 int main(void)
 {
-	int i = 0;
-	unsigned long int c = 0, d = 1, next = 0;
+	int main(void)
+{
+	int num;
+	unsigned long ui1 = 0, ui2 = 1, sum;
+	unsigned long ui1_alf1, ui1_alf2, ui2_alf1, ui2_alf2;
+	unsigned long alf1, alf2;
 
-	while (i < 98)
+	for (num = 0; num < 92; num++)
 	{
-		next = c + d;
-		c = d;
-		d = next;
-		printf("%lu", next);
+		sum = ui1 + ui2;
+		printf("%lu, ", sum);
 
-		if (i < 97)
-			printf(", ");
-		i++;
+		fib1 = ui2;
+		ui2 = sum;
 	}
-	putchar('\n');
+
+	ui1_alf1 = ui1 / 10000000000;
+	ui2_alf1 = ui2 / 10000000000;
+	ui1_alf2 = ui1 % 10000000000;
+	ui2_alf2 = ui2 % 10000000000;
+
+	for (num = 93; num < 99; num++)
+	{
+		alf1 = ui1_alf1 + ui2_alf1;
+		alf2 = ui1_alf2 + ui2_alf2;
+		if (ui1_alf2 + ui2_alf2 > 9999999999)
+		{
+			alf1 += 1;
+			alf2 %= 10000000000;
+		}
+
+		printf("%lu%lu", alf1, alf2);
+		if (count != 98)
+			printf(", ");
+
+		ui1_alf1 = ui2_alf1;
+		ui1_alf2 = ui2_alf2;
+		ui2_alf1 = alf1;
+		ui2_alf2 = alf2;
+	}
+	printf("\n");
 	return (0);
 }
