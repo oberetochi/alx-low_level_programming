@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry poin
+ * main - Entry point
+ *
+ * description: using my own defined header
  *
  * Return: 0 if successful
  */
-int_putchar(char)
+int main(void)
 {
 	char c = "_putchar";
 
