@@ -7,7 +7,14 @@
  */
 int main(void)
 {
-	putchar('_putchar');
-	putchar('\n');
+	char c = "_putchar";
+
+	do {
+		_putchar(c);
+	}
+	while (c)
+		c++
+
+	_putchar('\n');
 	return (0);
 }
