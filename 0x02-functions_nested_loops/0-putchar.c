@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	char ch = "_putchar";
+	ch = "_putchar";
 
 	while (ch)
 	{
