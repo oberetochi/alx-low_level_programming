@@ -3,8 +3,8 @@
 /**
  * main - entry point
  *
- * description: Using custom header to print alphabets777
- * Return: 0
+ * print_alphabet: Using custom header to print alphabets777
+ * 
  */
 
 void print_alphabet(void)
