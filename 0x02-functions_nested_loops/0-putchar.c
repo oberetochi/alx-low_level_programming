@@ -5,7 +5,7 @@
  *
  * Return: 0 if successful
  */
-int_putchar(void)
+int_putchar(char)
 {
 	char c = "_putchar";
 
