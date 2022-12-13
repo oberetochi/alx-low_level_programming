@@ -3,9 +3,10 @@
 /**
  * print_last_digit - prints last digits
  *
+ * description: Prints last digit of any given number
  *@n: Entry point
  *
- * Returns: value of digits last_digits
+ * Return: value of digits last_digits
  */
 
 int print_last_digit(int n)
@@ -14,9 +15,7 @@ int print_last_digit(int n)
 
 	last_digits = n % 10;
 	if (last_digits < 0)
-	
 	last_digits = last_digits * (-1);
 	_putchar(last_digits + '0');
-	
-	return (last_digits); 
+	return (last_digits);
 }
