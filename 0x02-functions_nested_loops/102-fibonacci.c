@@ -11,7 +11,7 @@ int main(void)
 
 	while (i < 50)
 	{
-		next = a + b;
+		next = c + d;
 		c = d;
 		d = next;
 		printf("%lu", next);
