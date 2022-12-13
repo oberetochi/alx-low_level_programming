@@ -8,6 +8,7 @@
  *
  * Return: 0 if successful
  */
+
 int main(void)
 {
 	char ch = "_putchar";
