@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * _isupper - Main
+ * _isupper - Main block
+ *
+ * @c: entry point
  *
  * description: Checks for uppercase
  *
