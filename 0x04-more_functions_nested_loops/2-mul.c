@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int mul - main block
+ * mul - main block
  *
  * description: multiplies 2 numbers
  * @a: first number entry point
