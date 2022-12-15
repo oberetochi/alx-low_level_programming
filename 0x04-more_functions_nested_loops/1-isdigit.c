@@ -7,7 +7,7 @@
  *
  * @c: entry point
  *
- * Returns: 1 if digit and 0 if otherwise
+ * Return: 1 if digit and 0 if otherwise
  */
 
 int _isdigit(int c)
