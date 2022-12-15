@@ -4,10 +4,10 @@
 #include <time.h>
 /* more headers goes there */
 /**
- * main - Entry point
- *
+ * positive_or_negative - Equates numbers
+ *@i: entry point
  * description: equality matching
- *Return: 0 if successful
+ *
  */
 void positive_or_negative(int i)
 {
