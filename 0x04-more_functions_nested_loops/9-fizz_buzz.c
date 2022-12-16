@@ -40,5 +40,5 @@ int main(void)
 		printf(" ");
 	}
 	printf("\n");
-	rerurn (0);
+	return (0);
 }
