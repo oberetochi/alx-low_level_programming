@@ -8,7 +8,7 @@
  * it peints BUZZ for multiples of 5
  * it prints FIZZBUZZ for multiplea of 3 and 5
  *
- * Return: num if successful
+ * Return: 0 if successful
  */
 
 int main(void)
@@ -39,4 +39,5 @@ int main(void)
 		}
 	}
 	printf("\n");
+	rerurn (0);
 }
