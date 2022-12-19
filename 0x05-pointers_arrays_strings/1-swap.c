@@ -6,8 +6,8 @@
  *
  * description: A function that swaps the values of two integers
  *
- * @a: Entry point
- * @b: Entry point
+ * @a: Entry point first integer
+ * @b: Entry point second integer
  *
  * Return: integers
  */
