@@ -5,7 +5,7 @@
  * _strncat - A function that Concatenates two strings
  *
  * description: The _strncat function is similar to the _strcat function,
- *		except that 
+ *		except that
  *		. it will use at most n bytes from src and
  *		. src does not need to be null-terminated if it contains n or more bytes
  *
