@@ -1,0 +1,15 @@
+I copied all athe need task to the right directory using the cp command
+
+I created a main.h file with the needed functions
+
+I use the command (gcc -c *.c) to create the static library and when I run the command, it will create a (.o) file from all the c files (*.c selects all files that ends with the extension .c).
+
+Then I use the (ar -rc libmy.a *.o) to create an archive (ar = archive, r = replace older files, c = create a new file if filename does not exist, libmy.a = filename and extension, *.o = selects all files with ending extension .o).
+
+Then I use (ranlib libmy.a) to index it
+
+Use ( ar -t filename and nm filename) to confirm both the archived and indexed files.
+
+I use .gitignore to hide the *.o and *.c files
+
+Thank you, Nwosa Tochukwu (21/01/2023)
