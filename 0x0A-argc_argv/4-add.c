@@ -25,7 +25,7 @@ return (1);
 
 /**
  * main - entry point
- * 
+ *
  * Description: program that adds positive numbers
  * Print the result, followed by a new line
  * If no number is passed to the program, print 0,
