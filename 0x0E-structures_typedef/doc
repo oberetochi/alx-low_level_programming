@@ -1,0 +1,9 @@
+Defined a new type struct dog with the following elements:
+
+- name, type = char *
+- age, type = float
+- owner, type = char *
+
+That is my new dog structure, I saved it with dog.h as a header file, instead of #ifndef MAIN_H and #define MAIN_H; it will now be #ifndef DOG_H and #define DOG_H.
+
+This struc tag\kes in 3 argument, name, age and owner
